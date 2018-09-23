@@ -63,6 +63,14 @@ also enable me to utilize something like CloudFlare or AWS CloudFormation as a
 content delivery network in front of my S3 bucket hopefully resulting in faster
 delivery of content.
 
+## Things to investigate
+
+- [ ] Use Bedrock as a way to structurize the project
+- [ ] Use Docker as way of deployment
+- [ ] Use S3-Uploads to utilize S3 and a CDN and make deployments immutable
+- [ ] Use an external MySQL-compatible DaaS (probably AWS RDS)
+  - [ ] Clone DB on new PR's to deploy staging env's before merging
+
 ---
 
 Feel free to follow along and see how this thing goes! And please reach out to
